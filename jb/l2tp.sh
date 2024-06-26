@@ -2,7 +2,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #=======================================================================#
-#   System Supported:  CentOS 6+ / Debian 7+ / Ubuntu 12+               #
+#   System Supported:  CentOS 7+ / Debian 12+ / Ubuntu 22+               #
 #   Description: L2TP VPN Auto Installer                                #
 #   Author: Teddysun <i@teddysun.com>                                   #
 #   Intro:  https://teddysun.com/448.html                               #
