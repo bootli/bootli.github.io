@@ -7,14 +7,14 @@ export PATH
 #   Author: Teddysun <i@teddysun.com>                                   #
 #   Intro:  https://teddysun.com/448.html                               #
 #=======================================================================#
-apt-get install net-tools make build-essential \
+apt-get install -y net-tools make build-essential \
   libnss3-dev pkg-config libevent-dev libunbound-dev \
   bison flex libsystemd-dev libcurl4-nss-dev \
   libpam0g-dev libcap-ng-dev libldns-dev xmlto
 
 cur_dir=`pwd`
 
-libreswan_filename="libreswan-5.0"
+libreswan_filename="libreswan-4.11"
 download_root_url="https://kp.wmsj.eu.org/bd"
 
 rootness(){
