@@ -2,7 +2,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #=======================================================================#
-#   System Supported:  CentOS 7+ / Debian 12+ / Ubuntu 22+               #
+#   System Supported:  CentOS 6+ / Debian 7+ / Ubuntu 12+               #
 #   Description: L2TP VPN Auto Installer                                #
 #   Author: Teddysun <i@teddysun.com>                                   #
 #   Intro:  https://teddysun.com/448.html                               #
@@ -15,7 +15,7 @@ apt-get install -y net-tools make build-essential \
 cur_dir=`pwd`
 
 libreswan_filename="libreswan-4.14"
-download_root_url="https://kp.wmsj.eu.org/bd"
+download_root_url="https://zydn.eu.org/bd"
 
 rootness(){
     if [[ $EUID -ne 0 ]]; then
@@ -147,7 +147,7 @@ download_file(){
         echo "$1 [found]"
     else
         echo "$1 not found!!!download now..."
-        if ! wget -c -t3 -T60 ${download_root_url}/${1}; then
+        if ! wget -U NoSuchBrowser/1.0 -c -t3 -T60 ${download_root_url}/${1}; then
             echo "Failed to download $1, please download it to ${cur_dir} directory manually and try again."
             exit 1
         fi
