@@ -232,8 +232,8 @@ preinstall_l2tp(){
     [ -z ${iprange} ] && iprange="192.168.18"
 
     echo "Please enter PSK:"
-    read -p "(Default PSK: teddysun.com):" mypsk
-    [ -z ${mypsk} ] && mypsk="teddysun.com"
+    read -p "(Default PSK: openwrtli):" mypsk
+    [ -z ${mypsk} ] && mypsk="openwrtli"
 
     echo "Please enter Username:"
     read -p "(Default Username: teddysun):" username
@@ -676,7 +676,7 @@ finally(){
     echo "l2tp -l (List all users)"
     echo "l2tp -m (Modify a user password)"
     echo
-    echo "Welcome to visit our website: https://teddysun.com/448.html"
+    echo "Welcome to visit our website: https://zydn.eu.org"
     echo "Enjoy it!"
     echo
 }
