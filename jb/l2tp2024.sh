@@ -236,8 +236,8 @@ preinstall_l2tp(){
     [ -z ${mypsk} ] && mypsk="openwrtli"
 
     echo "Please enter Username:"
-    read -p "(Default Username: teddysun):" username
-    [ -z ${username} ] && username="teddysun"
+    read -p "(Default Username: openwrtli):" username
+    [ -z ${username} ] && username="openwrtli"
 
     password=`rand`
     echo "Please enter ${username}'s password:"
