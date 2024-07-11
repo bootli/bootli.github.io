@@ -2,10 +2,10 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #=======================================================================#
-#   System Supported:  CentOS 6+ / Debian 7+ / Ubuntu 12+               #
+#   System Supported:  CentOS 7+ / Debian 12+ / Ubuntu 22+               #
 #   Description: L2TP VPN Auto Installer                                #
-#   Author: Teddysun <i@teddysun.com>                                   #
-#   Intro:  https://teddysun.com/448.html                               #
+#   Author: OpenwrtLi <zydn2020@gmail.com>                                   #
+#   Intro: https://zydn.eu.org/                               #
 #=======================================================================#
 apt-get install -y net-tools make build-essential \
   libnss3-dev pkg-config libevent-dev libunbound-dev \
@@ -658,9 +658,9 @@ finally(){
     echo
     echo "###############################################################"
     echo "# L2TP VPN Auto Installer                                     #"
-    echo "# System Supported: CentOS 6+ / Debian 7+ / Ubuntu 12+        #"
-    echo "# Intro: https://teddysun.com/448.html                        #"
-    echo "# Author: Teddysun <i@teddysun.com>                           #"
+    echo "# System Supported:  CentOS 7+ / Debian 12+ / Ubuntu 22+               #"
+    echo "# Intro: https://zydn.eu.org/                        #"
+    echo "# Author: OpenwrtLi <zydn2020@gmail.com>                          #"
     echo "###############################################################"
     echo "If there is no [FAILED] above, you can connect to your L2TP "
     echo "VPN Server with the default Username/Password is below:"
@@ -687,9 +687,9 @@ l2tp(){
     echo
     echo "###############################################################"
     echo "# L2TP VPN Auto Installer                                     #"
-    echo "# System Supported: CentOS 6+ / Debian 7+ / Ubuntu 12+        #"
-    echo "# Intro: https://teddysun.com/448.html                        #"
-    echo "# Author: Teddysun <i@teddysun.com>                           #"
+    echo "# System Supported:  CentOS 7+ / Debian 12+ / Ubuntu 22+        #"
+    echo "# Intro: https://zydn.eu.org/                       #"
+    echo "# Author: OpenwrtLi <zydn2020@gmail.com>                           #"
     echo "###############################################################"
     echo
     rootness
