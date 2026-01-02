@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 903
+!Total lines: 902
 !Version: 1.6.9-release
-!Update time: 2025-12-05 09:34:56 UTC+8
-!Update content: fix AdguardTeam/FiltersRegistry/pull/1154
+!Update time: 2025-12-23 20:06:33 UTC+8
+!Update content: add blocked for qumao and med pro ads.
 
 
 
@@ -126,6 +126,7 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
+||https://adtracker.medproad.com
 ||https://adv-api.shenshiads.com
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
@@ -298,7 +299,6 @@
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
 ||https://dig.bdurl.net
-||https://dl.zuimeitianqi.com
 ||https://dlogs.bwton.com
 ||https://dm.toutiao.com
 ||https://domain.aishengji.com
@@ -317,8 +317,6 @@
 ||https://ef-dongfeng.tanx.com
 ||https://engine.dcad01.com
 ||https://entry.baidu.com
-||https://errlog.umeng.com
-||https://errnewlog.umeng.com
 ||https://et-eus.w.inmobi.com
 ||https://event.tradplusad.com
 ||https://events-drcn.op.dbankcloud.cn
@@ -341,7 +339,6 @@
 ||https://gemini.yahoo.com
 ||https://geo.yahoo.com
 ||https://getui.cn
-||https://getui.com
 ||https://ggx.cmvideo.cn
 ||https://ggx01.miguvideo.com
 ||https://ggx03.miguvideo.com
@@ -478,6 +475,7 @@
 ||https://m1.ad.10010.com
 ||https://mbdlog.iqiyi.com
 ||https://mcs.zijieapi.com
+||https://medproad.com
 ||https://metrics.data.hicloud.com
 ||https://metrics.icloud.com
 ||https://metrics2.data.hicloud.com
@@ -566,6 +564,7 @@
 ||https://prod-mediate-events.applovin.com
 ||https://promotion-partner.kuaishou.com
 ||https://public.gdtimg.com
+||https://qcwx.medproad.com
 ||https://qmlog.baertt.com
 ||https://qn-cdnfile1pcdn.msstatic.com
 ||https://qzs.gdtimg.com
@@ -591,7 +590,6 @@
 ||https://s8t.teads.tv
 ||https://saad.ms.zhangyue.net
 ||https://saas.hpplay.cn
-||https://safebrowsing.googleapis.com
 ||https://safebrowsing.urlsec.gg.com
 ||https://samsung-com.112.2o7.net
 ||https://samsungads.com
@@ -650,7 +648,9 @@
 ||https://supply.inmobicdn.net
 ||https://sv-video.play.aiseet.atianqi.com
 ||https://syh-imp.cdnjtzy.com
+||https://syh.zybang.com
 ||https://szbdyd.com
+||https://t-adx.52qumao.com
 ||https://t-dsp.pinduoduo.com
 ||https://t.applovin.com
 ||https://t.teads.tv
@@ -661,7 +661,6 @@
 ||https://t2.a.market.xiaomi.com
 ||https://t2.fancyapi.com
 ||https://t3.a.market.xiaomi.com
-||https://t7z.cupid.iqiyi.com
 ||https://t7z.cupid.ptqy.gitv.tv
 ||https://target.ads.jihuoniao.com
 ||https://tdsdk.cpatrk.net
